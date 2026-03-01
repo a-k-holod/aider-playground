@@ -15,7 +15,13 @@ A simple Flask-based Todo application that allows you to add, view, and remove t
    cd web_todo_app
    ```
 
-2. Install Flask:
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. Install Flask:
    ```bash
    pip install flask
    ```
@@ -24,4 +30,3 @@ A simple Flask-based Todo application that allows you to add, view, and remove t
 
 Run the application using the following command:
 
-python3 app.py

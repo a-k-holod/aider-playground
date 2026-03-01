@@ -24,3 +24,4 @@ A simple Flask-based Todo application that allows you to add, view, and remove t
 
 Run the application using the following command:
 
+python3 app.py

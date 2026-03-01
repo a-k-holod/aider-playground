@@ -11,7 +11,7 @@ def index():
         todo_item = request.form.get('todo')
         if todo_item:
             todos.append(todo_item)
-    return render_template('index.html', todos=todos)
+    return render_template('index.html', todos=todos, enumerate=enumerate)
 
 @app.route('/delete/<int:index>')
 def delete(index):

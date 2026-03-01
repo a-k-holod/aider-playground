@@ -110,3 +110,11 @@ env.bak/
 
 # virtualenv
 venv/
+
+# Environment variables file
+.env
+
+# Aider tool files
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v4/
